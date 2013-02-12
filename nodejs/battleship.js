@@ -124,7 +124,7 @@ io.sockets.on('connection', function (socket) {
     });
 
     /**
-     * Evento disparado quando uma célula contém um item (Navio ou bonus)
+     * Evento disparado quando o tiro não acertou uma célula com um item (Navio ou bonus)
      * @param {String} cellID ID da Célula abatida
      * @param {Int} ownerShotID ID do Jogador que efetuou o disparo
      */

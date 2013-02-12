@@ -74,13 +74,13 @@
          * @cfg {Int} maxShips
          * Valor máximo de Navios no Jogo
          */
-        me.maxShips = 2;
+        me.maxShips = 5;
         
         /**
          * @cfg {Int} maxShots
          * Valor máximo de tiros para o Jogodor
          */
-        me.maxShots = 2;
+        me.maxShots = 5;
         
         /**
          * @cfg {Int} maxBonusItems
@@ -297,6 +297,8 @@
         
         /**
          * Encerrando o Jogo
+         * @param {String} title Título a ser exibido na mensagem
+         * @param {String} msg Mensagem a ser exibida para o Jogador
          */
         me.endGame = function(title, msg) {
             var me = this;
